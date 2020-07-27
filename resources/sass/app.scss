@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.jumbotron {
+    background: url('external/images/hero_01.jpg') no-repeat center center;
+    background-size: cover;
+    min-height:400px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .hero-text{
+      margin-top: -15px!important;
+  }
+
+  .company-profile{
+      margin-bottom:15px;
+  }
+
+  img.company-image{
+      object-fit: cover;
+      height:325px!important;
+  }
+
+  img.company-logo{
+      margin-left:8px;
+      margin-top: -208px;
+      margin-bottom:10px;
+      z-index:1;
+  }
+
+  .btn-login{
+      padding-left:16px!important;
+      padding-right:16px!important;
+  }
+
+  .submit-button{
+    padding-left:26px!important;
+    padding-right:26px!important;
+  }
